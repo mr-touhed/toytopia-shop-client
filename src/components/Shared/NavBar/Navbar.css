@@ -1,0 +1,15 @@
+.userprofile{
+position: relative;
+}
+.user-email{
+position: absolute;
+left: -20px;
+    bottom: -6px;
+    text-shadow: 1px 1px 0px #3b3535ba;
+    transform: scale(0);
+}
+
+.userprofile:hover .user-email{
+    transform: scale(1);
+    transition: all 0.5s;
+}
